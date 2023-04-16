@@ -1,6 +1,9 @@
 body {
     background: rgba(230,239,246,255);
-    
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 150%;
     /*
     PONER LETRAS Y GROSORES
     TODO LO DEMÁS QUE SEA GENERAL AL DOC
@@ -50,9 +53,20 @@ h1 {
 
 }
 
+#strong {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#weak {
+    font-weight: 200;
+    opacity: 0.75;
+}
+
 .listita {
     list-style-type: none;
     padding-left: 0;
+    font-weight: 200;
 }
 
 .down {
