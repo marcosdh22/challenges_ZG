@@ -1,0 +1,74 @@
+body {
+    background: rgba(230,239,246,255);
+    
+    /*
+    PONER LETRAS Y GROSORES
+    TODO LO DEMÁS QUE SEA GENERAL AL DOC
+    */
+}
+
+.tarjeta {
+    max-width: 1440px;
+    margin: 10%;
+}
+
+.up, .c2, .c3 {
+    padding: 5%;
+} 
+
+.up {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.up h2 {
+    color: rgba(191,223,50,255);
+}
+
+.up p {
+    color: rgba(176,178,181,255);
+}
+
+h1 {
+    color: rgba(43,179,177,255);
+}
+
+.c2 {
+    background-color: rgba(43,179,177,255);
+    border-bottom-left-radius: 10px;
+}
+
+.c3 {
+    background-color: rgba(74,190,189,255);
+    border-bottom-right-radius: 10px;
+}
+
+.c2, .c3 {
+    flex: 50%;
+    color: white;
+
+}
+
+.listita {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.down {
+    display: flex;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(191,223,50,255);
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+}
+
+button:hover {
+    background-color: blue;
+    opacity: 0.75;
+}
