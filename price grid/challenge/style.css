@@ -86,9 +86,11 @@ button {
     color: white;
     border-radius: 10px;
     border-style: none;
+    margin-top: 30px;
 }
 
 button:hover {
     background-color: blue;
     opacity: 0.75;
+    cursor: pointer;
 }
